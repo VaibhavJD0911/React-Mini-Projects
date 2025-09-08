@@ -22,6 +22,6 @@ Perfect for learning, experimenting, and building a personal portfolio.
 ## 🛠 Getting Started
 
 1. **Clone the repo**
-   ```bash
-  git clone https://github.com/VaibhavJD0911/React-Mini-Projects.git
+   git clone https://github.com/VaibhavJD0911/React-Mini-Projects.git
 
+  
