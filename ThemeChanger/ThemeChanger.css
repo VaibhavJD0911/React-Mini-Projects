@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;       /* heading on top, row below */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: aqua;
+  margin-bottom: 20px;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+  text-align: center;
+}
+
+/* NEW: row wrapper for buttons */
+.button-row {
+  display: flex;                /* arrange horizontally */
+  flex-wrap: wrap;              /* wrap on small screens */
+  justify-content: center;      /* center row */
+  gap: 12px;                    /* spacing between buttons */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid aqua;
+  background-color: transparent;
+  color: aqua;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: aqua;
+  color: #1a1a1a;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.rgb-bg {
+  animation: rgbBackground 5s linear infinite;
+}
+
+@keyframes rgbBackground {
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: green;
+  }
+  66% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+/* Make the RGB button look special */
+.rgb-btn {
+  border: none;
+  background: aqua;
+  color: #1a1a1a;
+  font-weight: 600;
+}
