@@ -12,7 +12,7 @@ Perfect for learning, experimenting, and building a personal portfolio.
 - Quiz App  
 - Notes Keeper  
 - Login & Signup Form  
-- Color Picker  
+-  Theme Changer
 - Random Quote Generator  
 - Stopwatch  
 - Expense Tracker  
